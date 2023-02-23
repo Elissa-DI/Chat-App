@@ -1,0 +1,24 @@
+<style>
+    body {
+        background-color: gray;
+        font-family: Arial;
+    }
+    #msg-input {
+        width: 100px;
+        height: 35px;
+    }
+    #send-btn {
+        background-color: rgb(37, 70, 37);
+    }
+</style>
+<body>
+    <div class="names-displayer">
+        <% {name} %>
+    </div>
+    <div id="msg-container"></div>
+    <form id="send-ontainer" action="#" method="post">
+        <input type="text" id="msg-input" placeholder="Enter your message">
+        <button type="submit" id="send-btn">Send</button>
+    </form>
+    
+</body>
